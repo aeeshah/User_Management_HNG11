@@ -18,15 +18,15 @@ This repository contains a Bash script to automate the creation of users and gro
 
 sudo ./create_users.sh /path/to/user_file.txt
 
-	2.	The user_file.txt should contain lines formatted as follows:
+		3.	The user_file.txt should contain lines formatted as follows:
 
 username; group1, group2, group3
 
-	2.	Example user_file.txt:
+		Example user_file.txt:
 
-light; sudo, dev, www-data
-idimma; sudo
-mayowa; dev, www-data
+		light; sudo, dev, www-data
+		idimma; sudo
+		mayowa; dev, www-data
 
 Script Details
 
